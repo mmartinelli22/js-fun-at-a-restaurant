@@ -29,7 +29,6 @@ describe("Chef (class)", function() {
   it("should work at a restaurant", function() {
     var restaurant = createRestaurant("Best Bakery Ever");
     var chef = new Chef("Hannah", restaurant);
-    console.log({restaurant});
     assert.equal(chef.name, "Hannah");
     assert.deepEqual(chef.restaurant, restaurant);
   });
